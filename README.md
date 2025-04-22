@@ -35,6 +35,7 @@ This guide covers a secure and reliable setup for [Ollama](https://ollama.com) a
 ## 3. Configure Ollama systemd Service
 
 - Find Ollama’s service file (`/usr/lib/systemd/system/ollama.service` or `/etc/systemd/system/ollama.service`):
+  The path of the file is here
   ```bash
   sudo systemctl status ollama
   ```
